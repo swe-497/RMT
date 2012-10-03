@@ -39,9 +39,10 @@ if (defined('ENVIRONMENT'))
 		case 'testing':
 		case 'production':
 			error_reporting(0);
-		break;
+		break;//dsadsadas
 
 		default:
+	
 			exit('The application environment is not set correctly.');
 	}
 }
